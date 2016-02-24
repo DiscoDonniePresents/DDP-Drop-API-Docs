@@ -1,3 +1,5 @@
+![alt text](https://storage.googleapis.com/media.discodonniepresents.com/2016/02/20befc03-disco-donnie-resents-logo-horizontal-000000.png "Disco Donnie Presents")
+
 # DDP Drop API
 
 This is a reference about the DDP Drop API which can be accessed at `http://mobile.discodonniepresents.com/wp-admin/admin-ajax.php?action=/mobile/v1/{{NAME_OF_ENDPOINT}}`. The API gets its data from Elasticsearch, so the documentation for Elasticsearch may, to some extend, also be used as a reference for queries to the API.
