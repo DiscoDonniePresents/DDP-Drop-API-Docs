@@ -52,7 +52,7 @@ http://mobile.discodonniepresents.com/wp-admin/admin-ajax.php?action=/mobile/v1/
 Return 20 events by artist "Carnage" at venue "Stereo Live" and sort them by the name of the tour:
 
 ```
-http://mobile.discodonniepresents.com/wp-admin/admin-ajax.php?action=/mobile/v1/events&query={"bool":{"must":[{"term":{"artists.summary":"Carnage"}},{"term":{"venue.summary":"Stereo Live"}}]}}&sort=[{"tour.summary":"asc"}]
+http://mobile.discodonniepresents.com/wp-admin/admin-ajax.php?action=/mobile/v1/events&size=20&query={"bool":{"must":[{"term":{"artists.summary":"Carnage"}},{"term":{"venue.summary":"Stereo Live"}}]}}&sort=[{"tour.summary":"asc"}]
 ```
 
 Return events that happen later than February 24th, 2016 at 8AM and sort them by distance (closest events first) from a specific latitude/longitude (secondary sort by the date, ascending):
